@@ -4,7 +4,7 @@
 ### All the Code
 In the previous tutorial you uploaded a program on your ATmega that made an LED attached to pin 10 blink. You typed a simple line in your terminal and some magic happened, and then your ATmega did stuff.  Well, the code you uploaded to your ATmega looked like this:
 
-```
+```C
 #define F_CPU (1000000L)
 #include <avr/io.h>
 #include <util/delay.h>
